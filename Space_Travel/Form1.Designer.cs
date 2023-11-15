@@ -55,6 +55,7 @@ namespace Space_Travel
             this.b1.Size = new System.Drawing.Size(70, 31);
             this.b1.TabIndex = 1;
             this.b1.Text = ".......";
+            this.b1.Click += new System.EventHandler(this.b1_Click);
             // 
             // Form1
             // 
@@ -70,6 +71,7 @@ namespace Space_Travel
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Space travel";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();
