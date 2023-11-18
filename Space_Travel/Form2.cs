@@ -35,6 +35,7 @@ namespace Space_Travel
 
         private void numeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            listBox1.Visible = false;
             timer1.Enabled = false;
             pictureBox1.Visible = false;
             textBox2.Visible = false;
@@ -49,6 +50,7 @@ namespace Space_Travel
 
         private void posibilitateaExistențeiViețiiToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            listBox1.Visible = false;
             timer1.Enabled = false;
             pictureBox1.Visible = false;
             textBox1.Visible = false;
@@ -76,12 +78,52 @@ namespace Space_Travel
 
         private void pozeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            listBox1.Visible = false;
+            textBox1.Visible = false;
+            textBox2.Visible = false;
+            pictureBox1.Visible = true;
+            play.Visible = true;
+            pause.Visible = true;
+            stop.Visible = true;
+            inutil1.Visible = true;
+            inutil2.Visible = true;
+            i = 0;
+
+        }
+
+        private void curiozitățiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listBox1.Visible = true;
+            pictureBox1.Visible = false;
+            textBox1.Visible = false;
+            textBox2.Visible = false;
+        }
+
+        private void play_Click(object sender, EventArgs e)
+        {
+
+            listBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = false;
             pictureBox1.Visible = true;
             timer1.Enabled = true;
-            i = 0;
             
+        }
+
+        private void pause_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+        }
+
+        private void stop_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+            pictureBox1.Visible = false;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
         }
     }
 }
