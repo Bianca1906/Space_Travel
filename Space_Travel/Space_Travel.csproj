@@ -191,5 +191,74 @@
   <ItemGroup>
     <None Include="Resources\nava-removebg-preview2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\martee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercurr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercurrrrrrrr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venussssss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terraa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terraaaaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiterrrrr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iupiter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venusss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercurrr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercur2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercur 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturnn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturnrn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1sat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranuss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptunnnnn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptun1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptunnnnn1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plutooo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte-removebg-preview1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
