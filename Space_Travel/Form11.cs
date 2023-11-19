@@ -65,6 +65,7 @@ namespace Space_Travel
         private void button10_Click(object sender, EventArgs e)
         {
         }
+        //******************************************** I N T R E B A R E A **** 1 *************************************
         private void radioButton8_CheckedChanged(object sender, EventArgs e)
         {
             groupBox1.Enabled = false;
@@ -128,7 +129,7 @@ namespace Space_Travel
             groupBox2.Visible = true;
             groupBox1.Enabled = false;
         }
-
+        //******************************************** I N T R E B A R E A **** 2 *************************************
         private void radioButton18_CheckedChanged(object sender, EventArgs e)
         {
             groupBox2.Visible = false;
@@ -149,7 +150,7 @@ namespace Space_Travel
             groupBox3.Visible = true;
             groupBox2.Enabled = false;
         }
-
+        
         private void radioButton15_CheckedChanged(object sender, EventArgs e)
         {
             groupBox2.Enabled = false;
@@ -192,12 +193,12 @@ namespace Space_Travel
             groupBox3.Visible = true;
             groupBox2.Enabled = false;
         }
-
+        //******************************************** I N T R E B A R E A **** 2 *************************************
         private void radioButton25_CheckedChanged(object sender, EventArgs e)
         {
-            groupBox2.Enabled = false;
-            groupBox2.Visible = false;
-            groupBox3.Visible = true;
+            groupBox3.Enabled = false;
+            groupBox3.Visible = false;
+            groupBox4.Visible = true;
             progressBar1.Value++;
         }
 
@@ -255,6 +256,203 @@ namespace Space_Travel
             groupBox3.Visible = false;
             groupBox4.Visible = true;
             groupBox3.Enabled = false;
+        }
+        //******************************************** I N T R E B A R E A **** 4 *************************************
+        private void radioButton28_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Enabled = false;
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            progressBar1.Value++;
+        }
+
+        private void radioButton29_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            groupBox4.Enabled = false;
+        }
+
+        private void radioButton30_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            groupBox4.Enabled = false;
+        }
+
+        private void radioButton31_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            groupBox4.Enabled = false;
+        }
+
+        private void radioButton32_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            groupBox4.Enabled = false;
+        }
+
+        private void radioButton33_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            groupBox4.Enabled = false;
+
+        }
+
+        private void radioButton34_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            groupBox4.Enabled = false;
+
+        }
+
+        private void radioButton35_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            groupBox4.Enabled = false;
+        }
+
+        private void radioButton36_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            groupBox5.Visible = true;
+            groupBox4.Enabled = false;
+        }
+        //******************************************** I N T R E B A R E A **** 5 *************************************
+        private void radioButton44_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Enabled = false;
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            progressBar1.Value++;
+        }
+
+        private void radioButton45_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            groupBox5.Enabled = false;
+        }
+
+        private void radioButton43_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            groupBox5.Enabled = false;
+        }
+
+        private void radioButton42_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            groupBox5.Enabled = false;
+
+        }
+
+        private void radioButton41_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            groupBox5.Enabled = false;
+        }
+
+        private void radioButton40_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            groupBox5.Enabled = false;
+        }
+
+        private void radioButton39_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            groupBox5.Enabled = false;
+        }
+
+        private void radioButton38_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            groupBox5.Enabled = false;
+        }
+
+        private void radioButton37_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox5.Visible = false;
+            groupBox6.Visible = true;
+            groupBox5.Enabled = false;
+        }
+        //******************************************** I N T R E B A R E A **** 6 *************************************
+        private void radioButton50_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Enabled = false;
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            progressBar1.Value++;
+        }
+
+        private void radioButton51_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            groupBox6.Enabled = false;
+        }
+
+        private void radioButton52_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            groupBox6.Enabled = false;
+        }
+
+        private void radioButton53_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            groupBox6.Enabled = false;
+        }
+
+        private void radioButton54_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            groupBox6.Enabled = false;
+        }
+
+        private void radioButton49_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            groupBox6.Enabled = false;
+
+        }
+
+        private void radioButton48_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            groupBox6.Enabled = false;
+        }
+
+        private void radioButton47_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            groupBox6.Enabled = false;
+        }
+
+        private void radioButton46_CheckedChanged(object sender, EventArgs e)
+        {
+            groupBox6.Visible = false;
+            groupBox7.Visible = true;
+            groupBox6.Enabled = false;
+
         }
     }
 }
