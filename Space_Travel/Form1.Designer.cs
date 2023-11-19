@@ -35,6 +35,7 @@ namespace Space_Travel
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.afis_nume = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -92,6 +93,18 @@ namespace Space_Travel
             this.afis_nume.Size = new System.Drawing.Size(0, 32);
             this.afis_nume.TabIndex = 4;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Font = new System.Drawing.Font("Orbitron", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(1138, 660);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(210, 32);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Începe testul";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,6 +113,7 @@ namespace Space_Travel
             this.BackgroundImage = global::Space_Travel.Properties.Resources.fundal_dim_planete_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1384, 761);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.afis_nume);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -124,6 +138,7 @@ namespace Space_Travel
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label afis_nume;
+        private System.Windows.Forms.Label label4;
     }
 }
 

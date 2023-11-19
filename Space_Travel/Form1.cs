@@ -16,6 +16,7 @@ namespace Space_Travel
         int[,] coord;
         int nr = 9;
         Mercur f1;  Venus f2; Terra f3; Marte f4; Jupiter f5; Saturn f6; Uranus f7; Neptun f8; Pluto f9;
+        Quiz f11;
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
             
@@ -29,63 +30,63 @@ namespace Space_Travel
                 if (coord[poz, 0] == 751 && coord[poz, 1] == 94)
                 {
                     f1 = new Mercur();
-                    f1.Show();
+                    f1.ShowDialog();
                     afis_nume.Text = "Planeta Mercur";
                 }
                 //******************** V E N U S ********************
                 if (coord[poz, 0] == 921 && coord[poz, 1] == 237)
                 {
                     f2 = new Venus();
-                    f2.Show();
+                    f2.ShowDialog();
                     afis_nume.Text = "Planeta Venus";
                 }
                 //******************** T E R R A ********************
                 if (coord[poz, 0] == 960 && coord[poz, 1] == 456)
                 {
                     f3 = new Terra();
-                    f3.Show();
+                    f3.ShowDialog();
                     afis_nume.Text = "Planeta Terra";
                 }
                 //******************** M A R T E ********************
                 if (coord[poz, 0] == 848 && coord[poz, 1] == 648)
                 {
                     f4 = new Marte();
-                    f4.Show();
+                    f4.ShowDialog();
                     afis_nume.Text = "Planeta Marte";
                 }
                 //******************** J U P I T E R ********************
                 if (coord[poz, 0] == 640 && coord[poz, 1] == 725)
                 {
                     f5 = new Jupiter();
-                    f5.Show();
+                    f5.ShowDialog();
                     afis_nume.Text = "Planeta Jupiter";
                 }
                 //******************** S A T U R N ********************
                 if (coord[poz, 0] == 431 && coord[poz, 1] == 648)
                 {
                     f6 = new Saturn();
-                    f6.Show();
+                    f6.ShowDialog();
                     afis_nume.Text = "Planeta Saturn";
                 }
                 //******************** U R A N U S ********************
                 if (coord[poz, 0] == 319 && coord[poz, 1] == 456)
                 {
                     f7 = new Uranus();
-                    f7.Show();
+                    f7.ShowDialog();
                     afis_nume.Text = "Planeta Uranus";
                 }
                 //******************** N E P T U N ********************
                 if (coord[poz, 0] == 358 && coord[poz, 1] == 237)
                 {
                     f8 = new Neptun();
-                    f8.Show();
+                    f8.ShowDialog();
                     afis_nume.Text = "Planeta Neptun";
                 }
                 //******************** P L U T O ********************
                 if (coord[poz, 0] == 528 && coord[poz, 1] == 94)
                 {
                     f9 = new Pluto();
-                    f9.Show();
+                    f9.ShowDialog();
                     afis_nume.Text = "Planeta Pluto";
                 }
             }
@@ -99,6 +100,17 @@ namespace Space_Travel
         private void Form1_Load(object sender, EventArgs e)
         {
            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            f11 = new Quiz();
+            f11.ShowDialog();
         }
 
         public Form1()

@@ -143,6 +143,16 @@ namespace Space_Travel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jupiter_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("jupiter-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jupiterrrrr {
             get {
                 object obj = ResourceManager.GetObject("jupiterrrrr", resourceCulture);
@@ -173,6 +183,16 @@ namespace Space_Travel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap marte_removebg_preview2 {
+            get {
+                object obj = ResourceManager.GetObject("marte-removebg-preview2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap martee {
             get {
                 object obj = ResourceManager.GetObject("martee", resourceCulture);
@@ -186,6 +206,16 @@ namespace Space_Travel.Properties {
         internal static System.Drawing.Bitmap mercur_3 {
             get {
                 object obj = ResourceManager.GetObject("mercur 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mercur_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("mercur-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,6 +303,16 @@ namespace Space_Travel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap neptun_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("neptun-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap neptun1 {
             get {
                 object obj = ResourceManager.GetObject("neptun1", resourceCulture);
@@ -303,6 +343,26 @@ namespace Space_Travel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pamant_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pamant-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pluto_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pluto-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap plutooo {
             get {
                 object obj = ResourceManager.GetObject("plutooo", resourceCulture);
@@ -316,6 +376,16 @@ namespace Space_Travel.Properties {
         internal static System.Drawing.Bitmap saturn {
             get {
                 object obj = ResourceManager.GetObject("saturn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap saturn_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("saturn-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,9 +433,29 @@ namespace Space_Travel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap uranus_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("uranus-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap uranuss {
             get {
                 object obj = ResourceManager.GetObject("uranuss", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap venus_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("venus-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
