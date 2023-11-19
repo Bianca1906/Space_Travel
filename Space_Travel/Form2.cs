@@ -97,6 +97,13 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = false;
+            timer1.Enabled = false;
+            pictureBox1.Visible = false;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
         }
 
         private void play_Click(object sender, EventArgs e)
