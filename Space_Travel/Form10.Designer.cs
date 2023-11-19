@@ -264,7 +264,6 @@ namespace Space_Travel
             this.BackgroundImage = global::Space_Travel.Properties.Resources.plutooo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 661);
-            this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.inutil2);
             this.Controls.Add(this.inutil1);
@@ -277,6 +276,7 @@ namespace Space_Travel
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.listBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pluto";
             this.Text = "Pluto";
