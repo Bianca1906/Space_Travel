@@ -143,68 +143,11 @@ namespace Space_Travel
             this.button34 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.radioButton37 = new System.Windows.Forms.RadioButton();
-            this.radioButton38 = new System.Windows.Forms.RadioButton();
-            this.radioButton39 = new System.Windows.Forms.RadioButton();
-            this.radioButton40 = new System.Windows.Forms.RadioButton();
-            this.radioButton41 = new System.Windows.Forms.RadioButton();
-            this.radioButton42 = new System.Windows.Forms.RadioButton();
-            this.radioButton43 = new System.Windows.Forms.RadioButton();
-            this.radioButton44 = new System.Windows.Forms.RadioButton();
-            this.radioButton45 = new System.Windows.Forms.RadioButton();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.radioButton46 = new System.Windows.Forms.RadioButton();
-            this.radioButton47 = new System.Windows.Forms.RadioButton();
-            this.radioButton48 = new System.Windows.Forms.RadioButton();
-            this.radioButton49 = new System.Windows.Forms.RadioButton();
-            this.radioButton50 = new System.Windows.Forms.RadioButton();
-            this.radioButton51 = new System.Windows.Forms.RadioButton();
-            this.radioButton52 = new System.Windows.Forms.RadioButton();
-            this.radioButton53 = new System.Windows.Forms.RadioButton();
-            this.radioButton54 = new System.Windows.Forms.RadioButton();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
+            this.label83 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -239,7 +182,7 @@ namespace Space_Travel
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Font = new System.Drawing.Font("Orbitron", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(46, 108);
+            this.groupBox1.Location = new System.Drawing.Point(35, 116);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1288, 231);
             this.groupBox1.TabIndex = 0;
@@ -442,11 +385,11 @@ namespace Space_Travel
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(834, 45);
-            this.progressBar1.Maximum = 10;
+            this.progressBar1.Maximum = 5;
             this.progressBar1.Minimum = 1;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(500, 25);
-            this.progressBar1.Step = 1;
+            this.progressBar1.Step = 0;
             this.progressBar1.TabIndex = 18;
             this.progressBar1.Value = 1;
             // 
@@ -456,9 +399,9 @@ namespace Space_Travel
             this.label10.Font = new System.Drawing.Font("Orbitron", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(747, 45);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 25);
+            this.label10.Size = new System.Drawing.Size(106, 25);
             this.label10.TabIndex = 19;
-            this.label10.Text = "Notă:";
+            this.label10.Text = "Punctaj:";
             // 
             // radioButton1
             // 
@@ -591,7 +534,7 @@ namespace Space_Travel
             this.groupBox2.Controls.Add(this.button19);
             this.groupBox2.Font = new System.Drawing.Font("Orbitron", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox2.Location = new System.Drawing.Point(46, 108);
+            this.groupBox2.Location = new System.Drawing.Point(29, 116);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1288, 231);
             this.groupBox2.TabIndex = 21;
@@ -882,7 +825,6 @@ namespace Space_Travel
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox3.Controls.Add(this.groupBox4);
             this.groupBox3.Controls.Add(this.radioButton19);
             this.groupBox3.Controls.Add(this.radioButton20);
             this.groupBox3.Controls.Add(this.radioButton21);
@@ -912,7 +854,7 @@ namespace Space_Travel
             this.groupBox3.Controls.Add(this.button28);
             this.groupBox3.Font = new System.Drawing.Font("Orbitron", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox3.Location = new System.Drawing.Point(46, 108);
+            this.groupBox3.Location = new System.Drawing.Point(29, 116);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(1288, 231);
             this.groupBox3.TabIndex = 22;
@@ -1232,13 +1174,14 @@ namespace Space_Travel
             this.groupBox4.Controls.Add(this.button36);
             this.groupBox4.Font = new System.Drawing.Font("Orbitron", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox4.Location = new System.Drawing.Point(0, 0);
+            this.groupBox4.Location = new System.Drawing.Point(29, 116);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(1288, 231);
             this.groupBox4.TabIndex = 23;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Ce planetă a fost denumită după zeița grecească a iubirii și frumuseții?";
             this.groupBox4.Visible = false;
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // radioButton28
             // 
@@ -1520,646 +1463,15 @@ namespace Space_Travel
             this.button36.TabIndex = 0;
             this.button36.UseVisualStyleBackColor = false;
             // 
-            // groupBox5
-            // 
-            this.groupBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox5.Controls.Add(this.groupBox6);
-            this.groupBox5.Controls.Add(this.radioButton37);
-            this.groupBox5.Controls.Add(this.radioButton38);
-            this.groupBox5.Controls.Add(this.radioButton39);
-            this.groupBox5.Controls.Add(this.radioButton40);
-            this.groupBox5.Controls.Add(this.radioButton41);
-            this.groupBox5.Controls.Add(this.radioButton42);
-            this.groupBox5.Controls.Add(this.radioButton43);
-            this.groupBox5.Controls.Add(this.radioButton44);
-            this.groupBox5.Controls.Add(this.radioButton45);
-            this.groupBox5.Controls.Add(this.label38);
-            this.groupBox5.Controls.Add(this.label39);
-            this.groupBox5.Controls.Add(this.label40);
-            this.groupBox5.Controls.Add(this.label41);
-            this.groupBox5.Controls.Add(this.label42);
-            this.groupBox5.Controls.Add(this.label43);
-            this.groupBox5.Controls.Add(this.label44);
-            this.groupBox5.Controls.Add(this.label45);
-            this.groupBox5.Controls.Add(this.label46);
-            this.groupBox5.Controls.Add(this.button37);
-            this.groupBox5.Controls.Add(this.button38);
-            this.groupBox5.Controls.Add(this.button39);
-            this.groupBox5.Controls.Add(this.button40);
-            this.groupBox5.Controls.Add(this.button41);
-            this.groupBox5.Controls.Add(this.button42);
-            this.groupBox5.Controls.Add(this.button43);
-            this.groupBox5.Controls.Add(this.button44);
-            this.groupBox5.Controls.Add(this.button45);
-            this.groupBox5.Font = new System.Drawing.Font("Orbitron", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox5.Location = new System.Drawing.Point(40, 108);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(1288, 231);
-            this.groupBox5.TabIndex = 24;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Pe ce planetă poți să sari de 3 ori mai sus decât pe Pământ?";
-            this.groupBox5.Visible = false;
-            // 
-            // radioButton37
-            // 
-            this.radioButton37.AutoSize = true;
-            this.radioButton37.Location = new System.Drawing.Point(1215, 194);
-            this.radioButton37.Name = "radioButton37";
-            this.radioButton37.Size = new System.Drawing.Size(14, 13);
-            this.radioButton37.TabIndex = 21;
-            this.radioButton37.TabStop = true;
-            this.radioButton37.UseVisualStyleBackColor = true;
-            this.radioButton37.CheckedChanged += new System.EventHandler(this.radioButton37_CheckedChanged);
-            // 
-            // radioButton38
-            // 
-            this.radioButton38.AutoSize = true;
-            this.radioButton38.Location = new System.Drawing.Point(1076, 192);
-            this.radioButton38.Name = "radioButton38";
-            this.radioButton38.Size = new System.Drawing.Size(14, 13);
-            this.radioButton38.TabIndex = 21;
-            this.radioButton38.TabStop = true;
-            this.radioButton38.UseVisualStyleBackColor = true;
-            this.radioButton38.CheckedChanged += new System.EventHandler(this.radioButton38_CheckedChanged);
-            // 
-            // radioButton39
-            // 
-            this.radioButton39.AutoSize = true;
-            this.radioButton39.Location = new System.Drawing.Point(920, 193);
-            this.radioButton39.Name = "radioButton39";
-            this.radioButton39.Size = new System.Drawing.Size(14, 13);
-            this.radioButton39.TabIndex = 21;
-            this.radioButton39.TabStop = true;
-            this.radioButton39.UseVisualStyleBackColor = true;
-            this.radioButton39.CheckedChanged += new System.EventHandler(this.radioButton39_CheckedChanged);
-            // 
-            // radioButton40
-            // 
-            this.radioButton40.AutoSize = true;
-            this.radioButton40.Location = new System.Drawing.Point(770, 193);
-            this.radioButton40.Name = "radioButton40";
-            this.radioButton40.Size = new System.Drawing.Size(14, 13);
-            this.radioButton40.TabIndex = 21;
-            this.radioButton40.TabStop = true;
-            this.radioButton40.UseVisualStyleBackColor = true;
-            this.radioButton40.CheckedChanged += new System.EventHandler(this.radioButton40_CheckedChanged);
-            // 
-            // radioButton41
-            // 
-            this.radioButton41.AutoSize = true;
-            this.radioButton41.Location = new System.Drawing.Point(622, 193);
-            this.radioButton41.Name = "radioButton41";
-            this.radioButton41.Size = new System.Drawing.Size(14, 13);
-            this.radioButton41.TabIndex = 21;
-            this.radioButton41.TabStop = true;
-            this.radioButton41.UseVisualStyleBackColor = true;
-            this.radioButton41.CheckedChanged += new System.EventHandler(this.radioButton41_CheckedChanged);
-            // 
-            // radioButton42
-            // 
-            this.radioButton42.AutoSize = true;
-            this.radioButton42.Location = new System.Drawing.Point(475, 192);
-            this.radioButton42.Name = "radioButton42";
-            this.radioButton42.Size = new System.Drawing.Size(14, 13);
-            this.radioButton42.TabIndex = 21;
-            this.radioButton42.TabStop = true;
-            this.radioButton42.UseVisualStyleBackColor = true;
-            this.radioButton42.CheckedChanged += new System.EventHandler(this.radioButton42_CheckedChanged);
-            // 
-            // radioButton43
-            // 
-            this.radioButton43.AutoSize = true;
-            this.radioButton43.Location = new System.Drawing.Point(325, 190);
-            this.radioButton43.Name = "radioButton43";
-            this.radioButton43.Size = new System.Drawing.Size(14, 13);
-            this.radioButton43.TabIndex = 21;
-            this.radioButton43.TabStop = true;
-            this.radioButton43.UseVisualStyleBackColor = true;
-            this.radioButton43.CheckedChanged += new System.EventHandler(this.radioButton43_CheckedChanged);
-            // 
-            // radioButton44
-            // 
-            this.radioButton44.AutoSize = true;
-            this.radioButton44.Location = new System.Drawing.Point(188, 191);
-            this.radioButton44.Name = "radioButton44";
-            this.radioButton44.Size = new System.Drawing.Size(14, 13);
-            this.radioButton44.TabIndex = 21;
-            this.radioButton44.TabStop = true;
-            this.radioButton44.UseVisualStyleBackColor = true;
-            this.radioButton44.CheckedChanged += new System.EventHandler(this.radioButton44_CheckedChanged);
-            // 
-            // radioButton45
-            // 
-            this.radioButton45.AutoSize = true;
-            this.radioButton45.Location = new System.Drawing.Point(49, 191);
-            this.radioButton45.Name = "radioButton45";
-            this.radioButton45.Size = new System.Drawing.Size(14, 13);
-            this.radioButton45.TabIndex = 18;
-            this.radioButton45.TabStop = true;
-            this.radioButton45.UseVisualStyleBackColor = true;
-            this.radioButton45.CheckedChanged += new System.EventHandler(this.radioButton45_CheckedChanged);
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(1194, 84);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(68, 20);
-            this.label38.TabIndex = 17;
-            this.label38.Text = "Venus";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(1046, 84);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(74, 20);
-            this.label39.TabIndex = 16;
-            this.label39.Text = "Uranus";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(891, 84);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(70, 20);
-            this.label40.TabIndex = 15;
-            this.label40.Text = "Saturn";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(748, 84);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(57, 20);
-            this.label41.TabIndex = 14;
-            this.label41.Text = "Pluto";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(601, 84);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(59, 20);
-            this.label42.TabIndex = 13;
-            this.label42.Text = "Terra";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(444, 84);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(73, 20);
-            this.label43.TabIndex = 12;
-            this.label43.Text = "Neptun";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(296, 84);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(73, 20);
-            this.label44.TabIndex = 11;
-            this.label44.Text = "Mercur";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(165, 84);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(61, 20);
-            this.label45.TabIndex = 10;
-            this.label45.Text = "Marte";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(22, 84);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(73, 20);
-            this.label46.TabIndex = 9;
-            this.label46.Text = "Jupiter";
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.Black;
-            this.button37.BackgroundImage = global::Space_Travel.Properties.Resources.venus_removebg_preview;
-            this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button37.Location = new System.Drawing.Point(1183, 95);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(88, 89);
-            this.button37.TabIndex = 8;
-            this.button37.UseVisualStyleBackColor = false;
-            // 
-            // button38
-            // 
-            this.button38.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button38.BackgroundImage = global::Space_Travel.Properties.Resources.uranus_removebg_preview;
-            this.button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button38.Location = new System.Drawing.Point(1032, 95);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(103, 89);
-            this.button38.TabIndex = 7;
-            this.button38.UseVisualStyleBackColor = false;
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button39.BackgroundImage = global::Space_Travel.Properties.Resources.saturn_removebg_preview;
-            this.button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button39.Location = new System.Drawing.Point(876, 95);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(103, 89);
-            this.button39.TabIndex = 6;
-            this.button39.UseVisualStyleBackColor = false;
-            // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button40.BackgroundImage = global::Space_Travel.Properties.Resources.pluto_removebg_preview;
-            this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button40.Location = new System.Drawing.Point(733, 95);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(92, 89);
-            this.button40.TabIndex = 5;
-            this.button40.UseVisualStyleBackColor = false;
-            // 
-            // button41
-            // 
-            this.button41.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button41.BackgroundImage = global::Space_Travel.Properties.Resources.pamant_removebg_preview;
-            this.button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button41.Location = new System.Drawing.Point(585, 95);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(92, 89);
-            this.button41.TabIndex = 4;
-            this.button41.UseVisualStyleBackColor = false;
-            // 
-            // button42
-            // 
-            this.button42.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button42.BackgroundImage = global::Space_Travel.Properties.Resources.neptun_removebg_preview;
-            this.button42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button42.Location = new System.Drawing.Point(428, 95);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(103, 89);
-            this.button42.TabIndex = 3;
-            this.button42.UseVisualStyleBackColor = false;
-            // 
-            // button43
-            // 
-            this.button43.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button43.BackgroundImage = global::Space_Travel.Properties.Resources.mercur_removebg_preview;
-            this.button43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button43.Location = new System.Drawing.Point(284, 95);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(95, 89);
-            this.button43.TabIndex = 2;
-            this.button43.UseVisualStyleBackColor = false;
-            // 
-            // button44
-            // 
-            this.button44.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button44.BackgroundImage = global::Space_Travel.Properties.Resources.marte_removebg_preview2;
-            this.button44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button44.Location = new System.Drawing.Point(149, 95);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(92, 89);
-            this.button44.TabIndex = 1;
-            this.button44.UseVisualStyleBackColor = false;
-            // 
-            // button45
-            // 
-            this.button45.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button45.BackgroundImage = global::Space_Travel.Properties.Resources.jupiter_removebg_preview;
-            this.button45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button45.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button45.Location = new System.Drawing.Point(6, 95);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(109, 89);
-            this.button45.TabIndex = 0;
-            this.button45.UseVisualStyleBackColor = false;
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox6.Controls.Add(this.radioButton46);
-            this.groupBox6.Controls.Add(this.radioButton47);
-            this.groupBox6.Controls.Add(this.radioButton48);
-            this.groupBox6.Controls.Add(this.radioButton49);
-            this.groupBox6.Controls.Add(this.radioButton50);
-            this.groupBox6.Controls.Add(this.radioButton51);
-            this.groupBox6.Controls.Add(this.radioButton52);
-            this.groupBox6.Controls.Add(this.radioButton53);
-            this.groupBox6.Controls.Add(this.radioButton54);
-            this.groupBox6.Controls.Add(this.label47);
-            this.groupBox6.Controls.Add(this.label48);
-            this.groupBox6.Controls.Add(this.label49);
-            this.groupBox6.Controls.Add(this.label50);
-            this.groupBox6.Controls.Add(this.label51);
-            this.groupBox6.Controls.Add(this.label52);
-            this.groupBox6.Controls.Add(this.label53);
-            this.groupBox6.Controls.Add(this.label54);
-            this.groupBox6.Controls.Add(this.label55);
-            this.groupBox6.Controls.Add(this.button46);
-            this.groupBox6.Controls.Add(this.button47);
-            this.groupBox6.Controls.Add(this.button48);
-            this.groupBox6.Controls.Add(this.button49);
-            this.groupBox6.Controls.Add(this.button50);
-            this.groupBox6.Controls.Add(this.button51);
-            this.groupBox6.Controls.Add(this.button52);
-            this.groupBox6.Controls.Add(this.button53);
-            this.groupBox6.Controls.Add(this.button54);
-            this.groupBox6.Font = new System.Drawing.Font("Orbitron", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox6.Location = new System.Drawing.Point(6, 0);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(1288, 231);
-            this.groupBox6.TabIndex = 25;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Pe ce planetă exista cu siguranță viață?";
-            this.groupBox6.Visible = false;
-            // 
-            // radioButton46
-            // 
-            this.radioButton46.AutoSize = true;
-            this.radioButton46.Location = new System.Drawing.Point(1215, 194);
-            this.radioButton46.Name = "radioButton46";
-            this.radioButton46.Size = new System.Drawing.Size(14, 13);
-            this.radioButton46.TabIndex = 21;
-            this.radioButton46.TabStop = true;
-            this.radioButton46.UseVisualStyleBackColor = true;
-            this.radioButton46.CheckedChanged += new System.EventHandler(this.radioButton46_CheckedChanged);
-            // 
-            // radioButton47
-            // 
-            this.radioButton47.AutoSize = true;
-            this.radioButton47.Location = new System.Drawing.Point(1076, 192);
-            this.radioButton47.Name = "radioButton47";
-            this.radioButton47.Size = new System.Drawing.Size(14, 13);
-            this.radioButton47.TabIndex = 21;
-            this.radioButton47.TabStop = true;
-            this.radioButton47.UseVisualStyleBackColor = true;
-            this.radioButton47.CheckedChanged += new System.EventHandler(this.radioButton47_CheckedChanged);
-            // 
-            // radioButton48
-            // 
-            this.radioButton48.AutoSize = true;
-            this.radioButton48.Location = new System.Drawing.Point(920, 193);
-            this.radioButton48.Name = "radioButton48";
-            this.radioButton48.Size = new System.Drawing.Size(14, 13);
-            this.radioButton48.TabIndex = 21;
-            this.radioButton48.TabStop = true;
-            this.radioButton48.UseVisualStyleBackColor = true;
-            this.radioButton48.CheckedChanged += new System.EventHandler(this.radioButton48_CheckedChanged);
-            // 
-            // radioButton49
-            // 
-            this.radioButton49.AutoSize = true;
-            this.radioButton49.Location = new System.Drawing.Point(770, 193);
-            this.radioButton49.Name = "radioButton49";
-            this.radioButton49.Size = new System.Drawing.Size(14, 13);
-            this.radioButton49.TabIndex = 21;
-            this.radioButton49.TabStop = true;
-            this.radioButton49.UseVisualStyleBackColor = true;
-            this.radioButton49.CheckedChanged += new System.EventHandler(this.radioButton49_CheckedChanged);
-            // 
-            // radioButton50
-            // 
-            this.radioButton50.AutoSize = true;
-            this.radioButton50.Location = new System.Drawing.Point(622, 193);
-            this.radioButton50.Name = "radioButton50";
-            this.radioButton50.Size = new System.Drawing.Size(14, 13);
-            this.radioButton50.TabIndex = 21;
-            this.radioButton50.TabStop = true;
-            this.radioButton50.UseVisualStyleBackColor = true;
-            this.radioButton50.CheckedChanged += new System.EventHandler(this.radioButton50_CheckedChanged);
-            // 
-            // radioButton51
-            // 
-            this.radioButton51.AutoSize = true;
-            this.radioButton51.Location = new System.Drawing.Point(475, 192);
-            this.radioButton51.Name = "radioButton51";
-            this.radioButton51.Size = new System.Drawing.Size(14, 13);
-            this.radioButton51.TabIndex = 21;
-            this.radioButton51.TabStop = true;
-            this.radioButton51.UseVisualStyleBackColor = true;
-            this.radioButton51.CheckedChanged += new System.EventHandler(this.radioButton51_CheckedChanged);
-            // 
-            // radioButton52
-            // 
-            this.radioButton52.AutoSize = true;
-            this.radioButton52.Location = new System.Drawing.Point(325, 190);
-            this.radioButton52.Name = "radioButton52";
-            this.radioButton52.Size = new System.Drawing.Size(14, 13);
-            this.radioButton52.TabIndex = 21;
-            this.radioButton52.TabStop = true;
-            this.radioButton52.UseVisualStyleBackColor = true;
-            this.radioButton52.CheckedChanged += new System.EventHandler(this.radioButton52_CheckedChanged);
-            // 
-            // radioButton53
-            // 
-            this.radioButton53.AutoSize = true;
-            this.radioButton53.Location = new System.Drawing.Point(188, 191);
-            this.radioButton53.Name = "radioButton53";
-            this.radioButton53.Size = new System.Drawing.Size(14, 13);
-            this.radioButton53.TabIndex = 21;
-            this.radioButton53.TabStop = true;
-            this.radioButton53.UseVisualStyleBackColor = true;
-            this.radioButton53.CheckedChanged += new System.EventHandler(this.radioButton53_CheckedChanged);
-            // 
-            // radioButton54
-            // 
-            this.radioButton54.AutoSize = true;
-            this.radioButton54.Location = new System.Drawing.Point(49, 191);
-            this.radioButton54.Name = "radioButton54";
-            this.radioButton54.Size = new System.Drawing.Size(14, 13);
-            this.radioButton54.TabIndex = 18;
-            this.radioButton54.TabStop = true;
-            this.radioButton54.UseVisualStyleBackColor = true;
-            this.radioButton54.CheckedChanged += new System.EventHandler(this.radioButton54_CheckedChanged);
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(1194, 84);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(68, 20);
-            this.label47.TabIndex = 17;
-            this.label47.Text = "Venus";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(1046, 84);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(74, 20);
-            this.label48.TabIndex = 16;
-            this.label48.Text = "Uranus";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(891, 84);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(70, 20);
-            this.label49.TabIndex = 15;
-            this.label49.Text = "Saturn";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(748, 84);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(57, 20);
-            this.label50.TabIndex = 14;
-            this.label50.Text = "Pluto";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(601, 84);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(59, 20);
-            this.label51.TabIndex = 13;
-            this.label51.Text = "Terra";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(444, 84);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(73, 20);
-            this.label52.TabIndex = 12;
-            this.label52.Text = "Neptun";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(296, 84);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(73, 20);
-            this.label53.TabIndex = 11;
-            this.label53.Text = "Mercur";
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(165, 84);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(61, 20);
-            this.label54.TabIndex = 10;
-            this.label54.Text = "Marte";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(22, 84);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(73, 20);
-            this.label55.TabIndex = 9;
-            this.label55.Text = "Jupiter";
-            // 
-            // button46
-            // 
-            this.button46.BackColor = System.Drawing.Color.Black;
-            this.button46.BackgroundImage = global::Space_Travel.Properties.Resources.venus_removebg_preview;
-            this.button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button46.Location = new System.Drawing.Point(1183, 95);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(88, 89);
-            this.button46.TabIndex = 8;
-            this.button46.UseVisualStyleBackColor = false;
-            // 
-            // button47
-            // 
-            this.button47.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button47.BackgroundImage = global::Space_Travel.Properties.Resources.uranus_removebg_preview;
-            this.button47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button47.Location = new System.Drawing.Point(1032, 95);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(103, 89);
-            this.button47.TabIndex = 7;
-            this.button47.UseVisualStyleBackColor = false;
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button48.BackgroundImage = global::Space_Travel.Properties.Resources.saturn_removebg_preview;
-            this.button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button48.Location = new System.Drawing.Point(876, 95);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(103, 89);
-            this.button48.TabIndex = 6;
-            this.button48.UseVisualStyleBackColor = false;
-            // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button49.BackgroundImage = global::Space_Travel.Properties.Resources.pluto_removebg_preview;
-            this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button49.Location = new System.Drawing.Point(733, 95);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(92, 89);
-            this.button49.TabIndex = 5;
-            this.button49.UseVisualStyleBackColor = false;
-            // 
-            // button50
-            // 
-            this.button50.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button50.BackgroundImage = global::Space_Travel.Properties.Resources.pamant_removebg_preview;
-            this.button50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button50.Location = new System.Drawing.Point(585, 95);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(92, 89);
-            this.button50.TabIndex = 4;
-            this.button50.UseVisualStyleBackColor = false;
-            // 
-            // button51
-            // 
-            this.button51.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button51.BackgroundImage = global::Space_Travel.Properties.Resources.neptun_removebg_preview;
-            this.button51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button51.Location = new System.Drawing.Point(428, 95);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(103, 89);
-            this.button51.TabIndex = 3;
-            this.button51.UseVisualStyleBackColor = false;
-            // 
-            // button52
-            // 
-            this.button52.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button52.BackgroundImage = global::Space_Travel.Properties.Resources.mercur_removebg_preview;
-            this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button52.Location = new System.Drawing.Point(284, 95);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(95, 89);
-            this.button52.TabIndex = 2;
-            this.button52.UseVisualStyleBackColor = false;
-            // 
-            // button53
-            // 
-            this.button53.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button53.BackgroundImage = global::Space_Travel.Properties.Resources.marte_removebg_preview2;
-            this.button53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button53.Location = new System.Drawing.Point(149, 95);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(92, 89);
-            this.button53.TabIndex = 1;
-            this.button53.UseVisualStyleBackColor = false;
-            // 
-            // button54
-            // 
-            this.button54.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button54.BackgroundImage = global::Space_Travel.Properties.Resources.jupiter_removebg_preview;
-            this.button54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button54.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button54.Location = new System.Drawing.Point(6, 95);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(109, 89);
-            this.button54.TabIndex = 0;
-            this.button54.UseVisualStyleBackColor = false;
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Font = new System.Drawing.Font("Orbitron", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.Location = new System.Drawing.Point(46, 45);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(187, 25);
+            this.label83.TabIndex = 29;
+            this.label83.Text = "Întrebarea nr. 1";
             // 
             // Quiz
             // 
@@ -2167,12 +1479,13 @@ namespace Space_Travel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1384, 761);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.label83);
             this.Controls.Add(this.label10);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox4);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "Quiz";
             this.Text = "Form11";
@@ -2184,10 +1497,6 @@ namespace Space_Travel
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2309,61 +1618,6 @@ namespace Space_Travel
         private System.Windows.Forms.Button button34;
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.RadioButton radioButton37;
-        private System.Windows.Forms.RadioButton radioButton38;
-        private System.Windows.Forms.RadioButton radioButton39;
-        private System.Windows.Forms.RadioButton radioButton40;
-        private System.Windows.Forms.RadioButton radioButton41;
-        private System.Windows.Forms.RadioButton radioButton42;
-        private System.Windows.Forms.RadioButton radioButton43;
-        private System.Windows.Forms.RadioButton radioButton44;
-        private System.Windows.Forms.RadioButton radioButton45;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button42;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.RadioButton radioButton46;
-        private System.Windows.Forms.RadioButton radioButton47;
-        private System.Windows.Forms.RadioButton radioButton48;
-        private System.Windows.Forms.RadioButton radioButton49;
-        private System.Windows.Forms.RadioButton radioButton50;
-        private System.Windows.Forms.RadioButton radioButton51;
-        private System.Windows.Forms.RadioButton radioButton52;
-        private System.Windows.Forms.RadioButton radioButton53;
-        private System.Windows.Forms.RadioButton radioButton54;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Button button46;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button50;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button button54;
+        private System.Windows.Forms.Label label83;
     }
 }
