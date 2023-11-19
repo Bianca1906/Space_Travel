@@ -86,6 +86,7 @@ namespace Space_Travel
             this.stop.Text = "◼";
             this.stop.UseVisualStyleBackColor = false;
             this.stop.Visible = false;
+            this.stop.Click += new System.EventHandler(this.stop_Click_1);
             // 
             // pause
             // 
@@ -99,6 +100,7 @@ namespace Space_Travel
             this.pause.Text = "| |";
             this.pause.UseVisualStyleBackColor = false;
             this.pause.Visible = false;
+            this.pause.Click += new System.EventHandler(this.pause_Click_1);
             // 
             // play
             // 
@@ -112,6 +114,7 @@ namespace Space_Travel
             this.play.Text = "▶️";
             this.play.UseVisualStyleBackColor = false;
             this.play.Visible = false;
+            this.play.Click += new System.EventHandler(this.play_Click_1);
             // 
             // listBox1
             // 
@@ -198,24 +201,28 @@ namespace Space_Travel
             this.numeToolStripMenuItem.Name = "numeToolStripMenuItem";
             this.numeToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.numeToolStripMenuItem.Text = "Istoric Nume";
+            this.numeToolStripMenuItem.Click += new System.EventHandler(this.numeToolStripMenuItem_Click);
             // 
             // posibilitateaExistențeiViețiiToolStripMenuItem
             // 
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Name = "posibilitateaExistențeiViețiiToolStripMenuItem";
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Size = new System.Drawing.Size(164, 20);
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Text = "Posibilitatea existenței vieții";
+            this.posibilitateaExistențeiViețiiToolStripMenuItem.Click += new System.EventHandler(this.posibilitateaExistențeiViețiiToolStripMenuItem_Click_1);
             // 
             // pozeToolStripMenuItem
             // 
             this.pozeToolStripMenuItem.Name = "pozeToolStripMenuItem";
             this.pozeToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.pozeToolStripMenuItem.Text = "Poze";
+            this.pozeToolStripMenuItem.Click += new System.EventHandler(this.pozeToolStripMenuItem_Click_1);
             // 
             // curiozitățiToolStripMenuItem
             // 
             this.curiozitățiToolStripMenuItem.Name = "curiozitățiToolStripMenuItem";
             this.curiozitățiToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.curiozitățiToolStripMenuItem.Text = "Curiozități";
+            this.curiozitățiToolStripMenuItem.Click += new System.EventHandler(this.curiozitățiToolStripMenuItem_Click);
             // 
             // textBox2
             // 
@@ -229,11 +236,20 @@ namespace Space_Travel
             this.textBox2.TabIndex = 28;
             this.textBox2.Visible = false;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 900;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // imageList1
             // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "terra1.jpg");
+            this.imageList1.Images.SetKeyName(1, "terra2.gif");
+            this.imageList1.Images.SetKeyName(2, "terra3.jpg");
+            this.imageList1.Images.SetKeyName(3, "terra4.jpg");
+            this.imageList1.Images.SetKeyName(4, "terra5.jpg");
             // 
             // button1
             // 
@@ -246,6 +262,9 @@ namespace Space_Travel
             this.button1.TabIndex = 36;
             this.button1.Text = "❌";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter_1);
+            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             // 
             // Terra
             // 
@@ -254,6 +273,7 @@ namespace Space_Travel
             this.BackgroundImage = global::Space_Travel.Properties.Resources.terraaaaa;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 661);
+            this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.inutil2);
             this.Controls.Add(this.inutil1);

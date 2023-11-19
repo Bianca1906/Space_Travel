@@ -22,22 +22,7 @@ namespace Space_Travel
 
         }
         int i;
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void button1_MouseEnter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_MouseLeave(object sender, EventArgs e)
-        {
-            button1.BackColor = Color.White;
-        }
-
-        private void istoricNumeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void numeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             listBox1.Visible = false;
             timer1.Enabled = false;
@@ -48,14 +33,15 @@ namespace Space_Travel
                 " din mitologia greacă sau romană. Toate celelalte planete au fost denumite după zei și zeițe " +
                 "din mitologia greco-romană. În română, cuvântul „pământ” este moștenit din latină pavimentum," +
                 " care înseamnă „pământ bătătorit și nivelat”, „pardoseală cu lespezi sau mozaic”, „pavaj”, „podea”, „drum pietruit”," +
-                " „loc neted”, „bătătură”."+
+                " „loc neted”, „bătătură”." +
                 "Terra provine din latinescul tĕrra(pământ, sol), care la rândul său derivă din termenul de origine indo-europeană terse," +
                 " cu sensul de „parte uscată”, opus „părții apoase”. Dar Terra a mai fost denumită în trecut și ca orbe terracqueo." +
                 " Cuvântul latin orbe a avut mai întâi semnificația „cerc” și apoi de „lume”.";
         }
 
-        private void posibilitateaExistențeiViețiiToolStripMenuItem_Click(object sender, EventArgs e)
+        private void posibilitateaExistențeiViețiiToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
+
             listBox1.Visible = false;
             timer1.Enabled = false;
             pictureBox1.Visible = false;
@@ -67,16 +53,22 @@ namespace Space_Travel
                 " înălțime deasupra nivelului mării și umiditate. ";
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            if (i <= 4)
-            {
-                pictureBox1.Image = imageList1.Images[i];
-                i++;
-            }
+            this.Close();
         }
 
-        private void pozeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button1_MouseEnter_1(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Red;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.White;
+        }
+
+        private void pozeToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             listBox1.Visible = false;
             textBox1.Visible = false;
@@ -88,10 +80,21 @@ namespace Space_Travel
             inutil1.Visible = true;
             inutil2.Visible = true;
             i = 0;
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (i <= 4)
+            {
+                pictureBox1.Image = imageList1.Images[i];
+                i++;
+            }
         }
 
         private void curiozitățiToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
             listBox1.Visible = true;
             pictureBox1.Visible = false;
             textBox1.Visible = false;
@@ -105,7 +108,7 @@ namespace Space_Travel
             inutil2.Visible = false;
         }
 
-        private void play_Click(object sender, EventArgs e)
+        private void play_Click_1(object sender, EventArgs e)
         {
             listBox1.Visible = false;
             textBox1.Visible = false;
@@ -114,12 +117,12 @@ namespace Space_Travel
             timer1.Enabled = true;
         }
 
-        private void pause_Click(object sender, EventArgs e)
+        private void pause_Click_1(object sender, EventArgs e)
         {
             timer1.Enabled = false;
         }
 
-        private void stop_Click(object sender, EventArgs e)
+        private void stop_Click_1(object sender, EventArgs e)
         {
             timer1.Enabled = false;
             pictureBox1.Visible = false;

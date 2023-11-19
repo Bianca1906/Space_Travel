@@ -39,7 +39,7 @@ namespace Space_Travel
             timer1.Enabled = false;
             pictureBox1.Visible = false;
             textBox2.Visible = false;
-            textBox1.Visible = true;
+            textBox1.Visible = true; 
             textBox1.Text = "Planeta este numită după zeul roman al războiului, Mars, o asociere făcută " +
                 "datorită culorii sale roșiatice care sugerează sângele. În limba greacă, " +
                 "planeta este cunoscută sub numele de Ἄρης Arēs, cu rădăcina inflexională Ἄρε- Are-." +

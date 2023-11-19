@@ -26,13 +26,7 @@ namespace Space_Travel
         {
             button1.BackColor = Color.Red;
         }
-
-        private void button1_MouseLeave(object sender, EventArgs e)
-        {
-            button1.BackColor = Color.White;
-        }
-
-        private void istoricNumeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void numeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             listBox1.Visible = false;
             timer1.Enabled = false;
@@ -41,9 +35,10 @@ namespace Space_Travel
             textBox1.Visible = true;
             textBox1.Text = "Venus cunoscut și ca Luceafărul este a doua planetă de la Soare. " +
                 "Este numită după zeița romană a iubirii și frumuseții.";
+
         }
 
-        private void posibilitateaExistențeiViețiiToolStripMenuItem_Click(object sender, EventArgs e)
+        private void posibilitateaExistențeiViețiiToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             listBox1.Visible = false;
             timer1.Enabled = false;
@@ -60,15 +55,6 @@ namespace Space_Travel
                 "datelor cu o scădere adecvată a condițiilor nu a dus la detectarea fosfinei. ";
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (i <= 4)
-            {
-                pictureBox1.Image = imageList1.Images[i];
-                i++;
-            }
-        }
-
         private void pozeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             listBox1.Visible = false;
@@ -83,7 +69,7 @@ namespace Space_Travel
             i = 0;
         }
 
-        private void curiozitățiToolStripMenuItem_Click(object sender, EventArgs e)
+        private void curiozitățiToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             listBox1.Visible = true;
             pictureBox1.Visible = false;
@@ -98,7 +84,21 @@ namespace Space_Travel
             inutil2.Visible = false;
         }
 
-        private void play_Click(object sender, EventArgs e)
+        private void button1_MouseLeave_1(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.White;
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            if (i <= 4)
+            {
+                pictureBox1.Image = imageList1.Images[i];
+                i++;
+            }
+        }
+
+        private void play_Click_1(object sender, EventArgs e)
         {
             listBox1.Visible = false;
             textBox1.Visible = false;
@@ -107,12 +107,12 @@ namespace Space_Travel
             timer1.Enabled = true;
         }
 
-        private void pause_Click(object sender, EventArgs e)
+        private void pause_Click_1(object sender, EventArgs e)
         {
             timer1.Enabled = false;
         }
 
-        private void stop_Click(object sender, EventArgs e)
+        private void stop_Click_1(object sender, EventArgs e)
         {
             timer1.Enabled = false;
             pictureBox1.Visible = false;

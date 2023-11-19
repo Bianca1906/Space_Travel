@@ -86,6 +86,7 @@ namespace Space_Travel
             this.stop.Text = "◼";
             this.stop.UseVisualStyleBackColor = false;
             this.stop.Visible = false;
+            this.stop.Click += new System.EventHandler(this.stop_Click_1);
             // 
             // pause
             // 
@@ -99,6 +100,7 @@ namespace Space_Travel
             this.pause.Text = "| |";
             this.pause.UseVisualStyleBackColor = false;
             this.pause.Visible = false;
+            this.pause.Click += new System.EventHandler(this.pause_Click_1);
             // 
             // play
             // 
@@ -112,6 +114,7 @@ namespace Space_Travel
             this.play.Text = "▶️";
             this.play.UseVisualStyleBackColor = false;
             this.play.Visible = false;
+            this.play.Click += new System.EventHandler(this.play_Click_1);
             // 
             // listBox1
             // 
@@ -120,20 +123,17 @@ namespace Space_Travel
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 24;
             this.listBox1.Items.AddRange(new object[] {
-            "🚀Pe planeta Marte poți să sari de 3 ori mai sus decât pe Pământ, datorită forței" +
-                " sale garvitaționale mai slabe.",
+            "🚀Jupiter este planeta ce se învârte cel mai rapid, din tot sistemul solar;",
             "",
-            "🚀Marte are două luni, una se numește Phobos iar cealaltă Deimos.",
+            "🚀Câmpul magnetic al planetei Jupiter este de 15 ori mai puternic decât cel al Pă" +
+                "mântului;",
             "",
-            "🚀O zi pe Marte este de 24 de ore și 37 minute.",
+            "🚀Jupiter a fost vizitată de 7 ori de către navele spațiale;",
             "",
-            "🚀Marte este casa celui mai mare munte din sistemul nostru solar, un vulcan numit" +
-                " Olympus Mons.",
-            "",
-            "🚀Marte este a doua cea mai mică planetă din sistemul nostru solar, după Mercur."});
+            "🚀Jupiter este vizibilă cu ochiul liber de pe Pământ."});
             this.listBox1.Location = new System.Drawing.Point(10, 343);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(960, 244);
+            this.listBox1.Size = new System.Drawing.Size(795, 196);
             this.listBox1.TabIndex = 41;
             this.listBox1.Visible = false;
             // 
@@ -155,7 +155,7 @@ namespace Space_Travel
             this.textBox1.Location = new System.Drawing.Point(10, 308);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(491, 343);
+            this.textBox1.Size = new System.Drawing.Size(491, 304);
             this.textBox1.TabIndex = 38;
             this.textBox1.Visible = false;
             // 
@@ -187,24 +187,30 @@ namespace Space_Travel
             this.numeToolStripMenuItem.Name = "numeToolStripMenuItem";
             this.numeToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.numeToolStripMenuItem.Text = "Istoric Nume";
+            this.numeToolStripMenuItem.Click += new System.EventHandler(this.numeToolStripMenuItem_Click);
             // 
             // posibilitateaExistențeiViețiiToolStripMenuItem
             // 
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Name = "posibilitateaExistențeiViețiiToolStripMenuItem";
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Size = new System.Drawing.Size(164, 20);
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Text = "Posibilitatea existenței vieții";
+            this.posibilitateaExistențeiViețiiToolStripMenuItem.Click += new System.EventHandler(this.posibilitateaExistențeiViețiiToolStripMenuItem_Click);
             // 
             // pozeToolStripMenuItem
             // 
             this.pozeToolStripMenuItem.Name = "pozeToolStripMenuItem";
             this.pozeToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.pozeToolStripMenuItem.Text = "Poze";
+            this.pozeToolStripMenuItem.Click += new System.EventHandler(this.pozeToolStripMenuItem_Click);
+            this.pozeToolStripMenuItem.MouseEnter += new System.EventHandler(this.pozeToolStripMenuItem_MouseEnter);
+            this.pozeToolStripMenuItem.MouseLeave += new System.EventHandler(this.pozeToolStripMenuItem_MouseLeave);
             // 
             // curiozitățiToolStripMenuItem
             // 
             this.curiozitățiToolStripMenuItem.Name = "curiozitățiToolStripMenuItem";
             this.curiozitățiToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.curiozitățiToolStripMenuItem.Text = "Curiozități";
+            this.curiozitățiToolStripMenuItem.Click += new System.EventHandler(this.curiozitățiToolStripMenuItem_Click);
             // 
             // textBox2
             // 
@@ -214,7 +220,7 @@ namespace Space_Travel
             this.textBox2.Location = new System.Drawing.Point(10, 308);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(795, 343);
+            this.textBox2.Size = new System.Drawing.Size(795, 278);
             this.textBox2.TabIndex = 39;
             this.textBox2.Visible = false;
             // 
@@ -229,20 +235,34 @@ namespace Space_Travel
             this.button1.TabIndex = 47;
             this.button1.Text = "❌";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
+            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 900;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // imageList1
             // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "jupiter1.jpg");
+            this.imageList1.Images.SetKeyName(1, "jupiter2.jpg");
+            this.imageList1.Images.SetKeyName(2, "jupiter3.jpg");
+            this.imageList1.Images.SetKeyName(3, "jupiter4.png");
+            this.imageList1.Images.SetKeyName(4, "jupiter5.jpg");
             // 
             // Jupiter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackgroundImage = global::Space_Travel.Properties.Resources.iupiter;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 661);
+            this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.inutil2);
             this.Controls.Add(this.inutil1);

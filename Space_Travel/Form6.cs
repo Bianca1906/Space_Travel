@@ -22,30 +22,18 @@ namespace Space_Travel
 
         }
         int i;
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void button1_MouseEnter(object sender, EventArgs e)
+        private void numeToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_MouseLeave(object sender, EventArgs e)
-        {
-            button1.BackColor = Color.White;
-        }
-
-        private void istoricNumeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
             listBox1.Visible = false;
             timer1.Enabled = false;
             pictureBox1.Visible = false;
             textBox2.Visible = false;
             textBox1.Visible = true;
-            textBox1.Text = "Mercur și-a lăsat numele în denumirea zilei săptămânii care urmează după marți, " +
-                "și anume miercuri, din sintagma latină: Mercurii dies / Mercuris dies.";
+            textBox1.Text = "Jupiter este o derivare a lui Jove și pater (latină: tată). " +
+                "Numele zeului a fost adoptat drept numele planetei Jupiter " +
+                "și a fost punctul de plecare pentru numele zilei de joi a săptămânii " +
+                "(rădăcina etimologică este mai vizibilă în limba franceză jeudi, de la Jovis Dies).";
         }
 
         private void posibilitateaExistențeiViețiiToolStripMenuItem_Click(object sender, EventArgs e)
@@ -55,16 +43,9 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
-            textBox2.Text = "În 1974, sonda Mariner 10, aparţinând NASA, a survolat planeta Mercur şi a observat terenul accidentat, " +
-                "presărat cu cratere. În prezent, conform unei noi teorii, aspectul haotic al peisajului ar putea fi rezultatul acţiunii substanţelor " +
-                "volatile - elemente şi compuşi care pot trece uşor dintr-o stare de agregare în alta - din subsolul planetei." +
-                "Substanţele volatile, categorie de substanţe din care face parte şi apa, sunt esenţiale pentru apariţia şi " +
-                "susţinerea vieţii aşa cum este aceasta pe Pământ. Astfel, potenţiala lor prezenţă pe Mercur are implicaţii interesante." +
-                " Noul studiu, coordonat de Alexis P.Rodriguez, cercetător la Institutul de Ştiinţe Planetare din Arizona, " +
-                "a examinat îndeaproape caracteristicile peisajului haotic de pe Mercur şi posibilitatea ca acesta să fie rezultatul " +
-                "acţiunii substanţelor volatile din subsol. La suprafaţă, temperaturile medii pe Mercur sunt suficient de ridicate pentru " +
-                "a topi plumbul, motiv din care oamenii de ştiinţă au presupus dintotdeauna că această planetă este complet inospitalieră " +
-                "pentru viaţă.";
+            textBox2.Text = "Nu există dovezi concludente despre existența vieții pe Jupiter, " +
+                "dar unele luni ale sale, cum ar fi Europa și Ganymede, prezintă potențial pentru existența apei" +
+                " subterane lichide. Cu toate acestea, nu au fost găsite încă dovezi concrete privind existența vieții.";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -74,20 +55,6 @@ namespace Space_Travel
                 pictureBox1.Image = imageList1.Images[i];
                 i++;
             }
-        }
-
-        private void pozeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            listBox1.Visible = false;
-            textBox1.Visible = false;
-            textBox2.Visible = false;
-            pictureBox1.Visible = true;
-            play.Visible = true;
-            pause.Visible = true;
-            stop.Visible = true;
-            inutil1.Visible = true;
-            inutil2.Visible = true;
-            i = 0;
         }
 
         private void curiozitățiToolStripMenuItem_Click(object sender, EventArgs e)
@@ -105,7 +72,39 @@ namespace Space_Travel
             inutil2.Visible = false;
         }
 
-        private void play_Click(object sender, EventArgs e)
+        private void pozeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            listBox1.Visible = false;
+            textBox1.Visible = false;
+            textBox2.Visible = false;
+            pictureBox1.Visible = true;
+            play.Visible = true;
+            pause.Visible = true;
+            stop.Visible = true;
+            inutil1.Visible = true;
+            inutil2.Visible = true;
+            i = 0;
+        }
+
+        private void pozeToolStripMenuItem_MouseLeave(object sender, EventArgs e)
+        {
+         
+
+        }
+
+        private void pozeToolStripMenuItem_MouseEnter(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void play_Click_1(object sender, EventArgs e)
         {
             listBox1.Visible = false;
             textBox1.Visible = false;
@@ -114,12 +113,13 @@ namespace Space_Travel
             timer1.Enabled = true;
         }
 
-        private void pause_Click(object sender, EventArgs e)
+        private void pause_Click_1(object sender, EventArgs e)
         {
+
             timer1.Enabled = false;
         }
 
-        private void stop_Click(object sender, EventArgs e)
+        private void stop_Click_1(object sender, EventArgs e)
         {
             timer1.Enabled = false;
             pictureBox1.Visible = false;
@@ -128,6 +128,16 @@ namespace Space_Travel
             stop.Visible = false;
             inutil1.Visible = false;
             inutil2.Visible = false;
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Red;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.White;
         }
     }
 }
