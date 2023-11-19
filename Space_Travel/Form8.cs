@@ -24,6 +24,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox2.Visible = false;
             textBox1.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox1.Text = "Numele lui Uranus face referire la vechea zeitate greacă a cerului, " +
                 "Uranus (greaca veche: Οὐρανός), tatăl lui Cronos (Saturn) și bunicul lui Zeus (Jupiter)," +
                 " care în latină a devenit Ūranus. Consensul asupra numelui nu a fost atins decât la " +
@@ -41,6 +46,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox2.Text = "Este foarte puțin probabil ca Uranus să poată găzdui forme de viață:" +
                 " având în vedere natura sa de gigant gazos, nu are o suprafață solidă definită. " +
                 "Chiar și atmosfera este inadecvată: dincolo de compoziția sa (hidrogenul, metanul " +

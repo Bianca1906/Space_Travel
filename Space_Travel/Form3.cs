@@ -44,6 +44,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox2.Visible = false;
             textBox1.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox1.Text = "Mercur și-a lăsat numele în denumirea zilei săptămânii care urmează după marți, " +
                 "și anume miercuri, din sintagma latină: Mercurii dies / Mercuris dies.";
         }
@@ -55,6 +60,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox2.Text = "În 1974, sonda Mariner 10, aparţinând NASA, a survolat planeta Mercur şi a observat terenul accidentat, " +
                 "presărat cu cratere. În prezent, conform unei noi teorii, aspectul haotic al peisajului ar putea fi rezultatul acţiunii substanţelor " +
                 "volatile - elemente şi compuşi care pot trece uşor dintr-o stare de agregare în alta - din subsolul planetei."+

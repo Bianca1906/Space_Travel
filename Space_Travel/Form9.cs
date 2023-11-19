@@ -29,6 +29,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox2.Visible = false;
             textBox1.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox1.Text = "Cele mai multe limbi de astăzi, chiar și în țările care nu au " +
                 "legătură directă cu cultura greco-romană, utilizează câteva variante ale denumirii" +
                 " „Neptun” pentru planetă; în limba chineză, japoneză și coreeană, denumirea planetei " +
@@ -43,6 +48,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox2.Text = "Neptun este o planetă gazoasă și extrem de rece din sistemul solar." +
                 " Cu toate acestea, condițiile de pe Neptun sunt considerate și mai extreme, cu temperaturi" +
                 " mai scăzute și vânturi puternice care suflă prin atmosfera sa densă, compusă în principal " +

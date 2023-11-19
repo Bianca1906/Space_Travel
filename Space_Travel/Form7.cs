@@ -29,6 +29,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox2.Visible = false;
             textBox1.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox1.Text = "Numele Saturn derivă de la zeul omonim al mitologiei romane, omologul titanul Cronos," +
                 " din mitologia greacă; simbolul său astronomic (♄) este o reprezentare stilizată a secerei zeului agriculturii.";
         }
@@ -40,6 +45,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox2.Text = "Saturn este o planetă gigant gazoasă și nu oferă condiții propice pentru existența vieții așa cum o cunoaștem." +
                 "  Saturn nu are o suprafață solidă, iar atmosfera sa este compusă în mare parte din hidrogen și heliu. " +
                 "Căutarea vieții se concentrează, în general, pe planetele sau luni care prezintă caracteristici care pot susține " +

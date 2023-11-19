@@ -29,6 +29,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox2.Visible = false;
             textBox1.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox1.Text = "Pământul este singura planetă din Sistemul Solar al cărei nume nu derivă" +
                 " din mitologia greacă sau romană. Toate celelalte planete au fost denumite după zei și zeițe " +
                 "din mitologia greco-romană. În română, cuvântul „pământ” este moștenit din latină pavimentum," +
@@ -47,6 +52,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox2.Text = "Există viață pe Terra. Formele de viață ale unei planete locuiesc în ecosisteme," +
                 " al căror total formează biosfera.Biosfera este împărțită într-un număr de biomuri, locuite de o populație de" +
                 " floră și faună aproximativ asemănătoare.Pe uscat, biomurile sunt separate în primul rând prin diferențe de latitudine," +

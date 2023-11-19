@@ -33,6 +33,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox2.Visible = false;
             textBox1.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox1.Text = "Venus cunoscut și ca Luceafărul este a doua planetă de la Soare. " +
                 "Este numită după zeița romană a iubirii și frumuseții.";
 
@@ -45,6 +50,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox2.Text = "Posibilitatea existenței vieții pe Venus a fost mult timp un subiect de speculații, " +
                 "iar în ultimii ani s-au făcut cercetări active în acest sens. În urma unei observații din 2019 conform căreia " +
                 "absorbția luminii straturilor de nori superiori a fost în concordanță cu prezența microorganismelor, " +

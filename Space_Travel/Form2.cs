@@ -39,7 +39,13 @@ namespace Space_Travel
             timer1.Enabled = false;
             pictureBox1.Visible = false;
             textBox2.Visible = false;
-            textBox1.Visible = true; 
+            textBox1.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
+
             textBox1.Text = "Planeta este numită după zeul roman al războiului, Mars, o asociere făcută " +
                 "datorită culorii sale roșiatice care sugerează sângele. În limba greacă, " +
                 "planeta este cunoscută sub numele de Ἄρης Arēs, cu rădăcina inflexională Ἄρε- Are-." +
@@ -55,6 +61,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox2.Text = "Există cercetări în curs de desfășurare care evaluează potențialul de locuibilitate din trecut al lui Marte, " +
                 "precum și posibilitatea existenței vieții. Sunt planificate viitoare misiuni de astrobiologie," +
                 " cum ar fi roverul Rosalind Franklin al Agenției Spațiale Europene. Apa lichidă nu poate exista pe suprafața planetei Marte " +

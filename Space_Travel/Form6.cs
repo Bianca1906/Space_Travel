@@ -30,6 +30,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox2.Visible = false;
             textBox1.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox1.Text = "Jupiter este o derivare a lui Jove și pater (latină: tată). " +
                 "Numele zeului a fost adoptat drept numele planetei Jupiter " +
                 "și a fost punctul de plecare pentru numele zilei de joi a săptămânii " +
@@ -43,6 +48,11 @@ namespace Space_Travel
             pictureBox1.Visible = false;
             textBox1.Visible = false;
             textBox2.Visible = true;
+            play.Visible = false;
+            pause.Visible = false;
+            stop.Visible = false;
+            inutil1.Visible = false;
+            inutil2.Visible = false;
             textBox2.Text = "Nu există dovezi concludente despre existența vieții pe Jupiter, " +
                 "dar unele luni ale sale, cum ar fi Europa și Ganymede, prezintă potențial pentru existența apei" +
                 " subterane lichide. Cu toate acestea, nu au fost găsite încă dovezi concrete privind existența vieții.";
