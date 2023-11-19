@@ -36,7 +36,6 @@ namespace Space_Travel
             this.stop = new System.Windows.Forms.Button();
             this.pause = new System.Windows.Forms.Button();
             this.play = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,6 +47,8 @@ namespace Space_Travel
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -85,6 +86,7 @@ namespace Space_Travel
             this.stop.Text = "◼";
             this.stop.UseVisualStyleBackColor = false;
             this.stop.Visible = false;
+            this.stop.Click += new System.EventHandler(this.stop_Click);
             // 
             // pause
             // 
@@ -98,6 +100,7 @@ namespace Space_Travel
             this.pause.Text = "| |";
             this.pause.UseVisualStyleBackColor = false;
             this.pause.Visible = false;
+            this.pause.Click += new System.EventHandler(this.pause_Click);
             // 
             // play
             // 
@@ -111,27 +114,7 @@ namespace Space_Travel
             this.play.Text = "▶️";
             this.play.UseVisualStyleBackColor = false;
             this.play.Visible = false;
-            // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.LightGray;
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 24;
-            this.listBox1.Items.AddRange(new object[] {
-            "🚀Jupiter este planeta ce se învârte cel mai rapid, din tot sistemul solar;",
-            "",
-            "🚀Câmpul magnetic al planetei Jupiter este de 15 ori mai puternic decât cel al Pă" +
-                "mântului;",
-            "",
-            "🚀Jupiter a fost vizitată de 7 ori de către navele spațiale;",
-            "",
-            "🚀Jupiter este vizibilă cu ochiul liber de pe Pământ."});
-            this.listBox1.Location = new System.Drawing.Point(10, 367);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(795, 196);
-            this.listBox1.TabIndex = 52;
-            this.listBox1.Visible = false;
+            this.play.Click += new System.EventHandler(this.play_Click);
             // 
             // pictureBox1
             // 
@@ -148,7 +131,7 @@ namespace Space_Travel
             this.textBox1.BackColor = System.Drawing.Color.LightGray;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(10, 332);
+            this.textBox1.Location = new System.Drawing.Point(10, 318);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(491, 304);
@@ -183,24 +166,28 @@ namespace Space_Travel
             this.numeToolStripMenuItem.Name = "numeToolStripMenuItem";
             this.numeToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.numeToolStripMenuItem.Text = "Istoric Nume";
+            this.numeToolStripMenuItem.Click += new System.EventHandler(this.numeToolStripMenuItem_Click);
             // 
             // posibilitateaExistențeiViețiiToolStripMenuItem
             // 
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Name = "posibilitateaExistențeiViețiiToolStripMenuItem";
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Size = new System.Drawing.Size(164, 20);
             this.posibilitateaExistențeiViețiiToolStripMenuItem.Text = "Posibilitatea existenței vieții";
+            this.posibilitateaExistențeiViețiiToolStripMenuItem.Click += new System.EventHandler(this.posibilitateaExistențeiViețiiToolStripMenuItem_Click);
             // 
             // pozeToolStripMenuItem
             // 
             this.pozeToolStripMenuItem.Name = "pozeToolStripMenuItem";
             this.pozeToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.pozeToolStripMenuItem.Text = "Poze";
+            this.pozeToolStripMenuItem.Click += new System.EventHandler(this.pozeToolStripMenuItem_Click);
             // 
             // curiozitățiToolStripMenuItem
             // 
             this.curiozitățiToolStripMenuItem.Name = "curiozitățiToolStripMenuItem";
             this.curiozitățiToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.curiozitățiToolStripMenuItem.Text = "Curiozități";
+            this.curiozitățiToolStripMenuItem.Click += new System.EventHandler(this.curiozitățiToolStripMenuItem_Click);
             // 
             // textBox2
             // 
@@ -214,11 +201,62 @@ namespace Space_Travel
             this.textBox2.TabIndex = 50;
             this.textBox2.Visible = false;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 900;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // imageList1
             // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "saturn.jpg");
+            this.imageList1.Images.SetKeyName(1, "saturn1.jpg");
+            this.imageList1.Images.SetKeyName(2, "saturn2.jpg");
+            this.imageList1.Images.SetKeyName(3, "saturn4.jpg");
+            this.imageList1.Images.SetKeyName(4, "saturn5.jpg");
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button1.Font = new System.Drawing.Font("Sigmar One", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(958, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(26, 24);
+            this.button1.TabIndex = 58;
+            this.button1.Text = "❌";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
+            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            // 
+            // listBox1
+            // 
+            this.listBox1.BackColor = System.Drawing.Color.LightGray;
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 24;
+            this.listBox1.Items.AddRange(new object[] {
+            "🚀Saturn este imens. Este a doua cea mai mare planetă din sistemul nostru solar.",
+            "",
+            "🚀Nu poți sta pe Saturn. Saturn nu e ca Pământul, este compus în mare parte din g" +
+                "aze.",
+            "",
+            "🚀Saturn ar putea pluti în apă, deoarece este în mare parte din gaz.",
+            "",
+            "🚀Pe Saturn este un vânt foarte puternic. Vânturile din jurul ecuatorului pot aju" +
+                "nge ",
+            "de 1.800 de kilometri pe oră.",
+            "",
+            "🚀Saturn înconjoară Soarele foarte încet. Un an pe Saturn este mai mult de 29 de " +
+                "ani ",
+            "de pe Pământ."});
+            this.listBox1.Location = new System.Drawing.Point(12, 332);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(844, 268);
+            this.listBox1.TabIndex = 59;
+            this.listBox1.Visible = false;
             // 
             // Saturn
             // 
@@ -227,20 +265,23 @@ namespace Space_Travel
             this.BackgroundImage = global::Space_Travel.Properties.Resources._1sat;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 661);
+            this.ControlBox = false;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.inutil2);
             this.Controls.Add(this.inutil1);
             this.Controls.Add(this.stop);
             this.Controls.Add(this.pause);
             this.Controls.Add(this.play);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.listBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Saturn";
             this.Text = "Saturn";
+            this.Load += new System.EventHandler(this.Saturn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -256,7 +297,6 @@ namespace Space_Travel
         private System.Windows.Forms.Button stop;
         private System.Windows.Forms.Button pause;
         private System.Windows.Forms.Button play;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
@@ -268,5 +308,7 @@ namespace Space_Travel
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
